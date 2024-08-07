@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/springbackground"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backgroundimage">
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="MAIN MENU"
+        android:textSize="26dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="340dp"
+        android:background="@android:color/transparent"
+        android:onClick="backStart"/>
+
+        <TextView
+            android:id="@+id/story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:text="Created By:\nKenny Nguyen\n             Thanh Tang
+            \nLiza Filanova\nShawn Tran\n\n\n\n\nCreated for Comp Sci 4 Project"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+    </FrameLayout>
+</LinearLayout>

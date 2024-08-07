@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".helpMenu"
+    android:background="@drawable/backgroundimage">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Back"
+        android:textSize="30dp"
+        android:layout_x="245dp"
+        android:layout_y="340dp"
+        android:background="@android:color/transparent"
+        android:onClick="backStart"/>
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="716dp"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="8dp"
+        android:textAlignment="center"
+        android:text="Telly and the Tale of the Four Seasons is a 16 level season themed platform game.
+ To complete a level, the player needs to collect three coins over the course of the level. Sometimes however Telly gets lucky and god gives her a coin out of pity.
+ Upon collection of the final coin, the player will be prompted to continue to the next level
+or return to the main menu. Telly will get air-dropped into the level DO NOT click anything until she reaches the ground or there will be a chance she dies.
+To play the game, the player must use the arrows to move Telly in the
+ desired direction. Telly however has a bad knee and will sometimes jump short. Keep jumping until she makes it or she'll be really sad you gave up on her. " />
+</AbsoluteLayout>

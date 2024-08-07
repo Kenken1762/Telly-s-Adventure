@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/fallbackground"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backgroundimage">
+
+        <ImageView
+            android:id="@+id/tint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/tintedBlack"/>
+
+        <ImageView
+            android:id="@+id/heroIdle"
+            android:layout_width="40dp"
+            android:visibility="invisible"
+            android:layout_height="40dp"
+            android:layout_marginTop="360dp" />
+
+        <ImageView
+            android:id="@+id/heroJump"
+            android:layout_width="40dp"
+            android:visibility="invisible"
+            android:layout_height="40dp"
+            android:layout_marginTop="360dp"/>
+
+        <ImageView
+            android:id="@+id/heroRun"
+            android:layout_width="40dp"
+            android:visibility="invisible"
+            android:layout_height="40dp"
+            android:layout_marginTop="360dp"/>
+
+        <ImageView
+            android:id="@+id/heroDeath"
+            android:layout_width="40dp"
+            android:visibility="invisible"
+            android:layout_height="40dp"
+            android:layout_marginTop="360dp"/>
+
+        <ImageView
+            android:id="@+id/collected1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/coin1"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/collected2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/coin1"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/collected3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="150dp"
+            android:src="@drawable/coin1"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:text="This is level 11"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="360dp"
+            android:src="@drawable/autumnground"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/autumnground"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="180dp"
+            android:src="@drawable/autumnground"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="270dp"
+            android:src="@drawable/autumnground"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="360dp"
+            android:src="@drawable/autumnground"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="450dp"
+            android:src="@drawable/autumnground"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="540dp"
+            android:src="@drawable/autumnground"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="630dp"
+            android:layout_marginTop="360dp"
+            android:src="@drawable/autumnground" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="720dp"
+            android:src="@drawable/autumnground"/>
+        <ImageView
+            android:id="@+id/rockspike1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="195dp"
+            android:src="@drawable/rockspike" />
+
+        <ImageView
+            android:id="@+id/rockspike2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="465dp"
+            android:layout_marginTop="195dp"
+            android:src="@drawable/rockspike" />
+
+                <ImageView
+            android:id="@+id/rockspike3"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="410dp"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/rockspike" />
+
+        <ImageView
+            android:id="@+id/rockspike4"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="475dp"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/rockspike" />
+        <Button
+            android:id="@+id/pauseButton"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:background="@android:color/transparent"
+            android:text="||"
+            android:textSize="20dp"
+            android:onClick="pauseMenu"/>
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="205dp"
+            android:text="Return to Game"
+            android:textColor="@color/black"
+            android:backgroundTint="@android:color/transparent"
+            android:textSize="20dp"
+            android:onClick="return2Game"/>
+
+        <Button
+            android:id="@+id/nextLevelButton"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="205dp"
+            android:text="Next Level"
+            android:textColor="@color/black"
+            android:backgroundTint="@android:color/transparent"
+            android:textSize="20dp"
+            android:onClick="levelTwelveStart"/>
+
+        <Button
+            android:id="@+id/retry"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="205dp"
+            android:text="Try Again"
+            android:textColor="@color/black"
+            android:backgroundTint="@android:color/transparent"
+            android:textSize="20dp"
+            android:onClick="retryStart"/>
+
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="205dp"
+            android:text="Main Menu"
+            android:textColor="@color/black"
+            android:backgroundTint="@android:color/transparent"
+            android:textSize="20dp"
+            android:onClick="mainMenuStart"/>
+
+        <ImageView
+            android:id="@+id/platform1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="270dp"
+            android:src="@drawable/autumnplat" />
+        <ImageView
+            android:id="@+id/platform2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="220dp"
+            android:src="@drawable/autumnplat" />
+
+        <ImageView
+            android:id="@+id/platform3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="400dp"
+            android:layout_marginTop="220dp"
+            android:src="@drawable/autumnplat" />
+                <ImageView
+            android:id="@+id/platform4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="400dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/autumnplat" />
+                <ImageView
+            android:id="@+id/platform5"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="130dp"
+            android:src="@drawable/autumnplat" />
+                <ImageView
+            android:id="@+id/platform6"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="600dp"
+            android:layout_marginTop="200dp"
+            android:src="@drawable/autumnplat" />
+                <ImageView
+            android:id="@+id/platform7"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="500dp"
+            android:layout_marginTop="140dp"
+            android:src="@drawable/autumnplat" />
+
+        <ImageButton
+            android:id="@+id/upButton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="560dp"
+            android:layout_marginTop="250dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/arrow"
+            android:rotation="90"
+            android:textColor="@color/black" />
+
+        <ImageButton
+                android:id="@+id/leftButton"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="290dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/arrow"
+                android:background="@android:color/transparent"
+                android:textColor="@color/black" />
+
+        <ImageButton
+                android:id="@+id/rightButton"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="290dp"
+                android:layout_marginLeft="80dp"
+                android:src="@drawable/arrow"
+                android:rotation="180"
+                android:background="@android:color/transparent"
+                android:textColor="@color/black"/>
+
+        <ImageButton
+                android:id="@+id/downButton"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="560dp"
+                android:layout_marginTop="320dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/arrow"
+                android:rotation="-90"
+                android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/coin1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="220dp" />
+
+        <ImageView
+            android:id="@+id/coin2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="80dp"/>
+
+        <ImageView
+            android:id="@+id/coin3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="630dp"
+            android:layout_marginTop="145dp"/>
+    </FrameLayout>
+</LinearLayout>
